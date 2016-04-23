@@ -1,0 +1,47 @@
+body{
+  margin: 0 auto;
+}
+
+header {
+  display:flex
+  border-bottom: gainsboro:
+  border-bottom-width:thick;
+  border-bottom-style:inset;
+}
+
+div.header-left-imag{
+  width:1306.66px;
+  display:inline;
+  align-items:flex-end;
+  display:inline;
+}
+
+img.fork-kinife{
+  padding-right;
+}
+
+p.style{
+  width:255px;
+  height:33px;
+}
+
+div .small-logos{
+  width:427px;
+  height:100px;
+  display:flex;
+  align-items:flex-end;
+}
+
+div.1st-6-small-logos{
+  display: inline;
+  height:100px
+  padding-right:1px;
+
+}
+div.2nd-2small-logos{
+  display:inline;
+  height:100px;
+}
+img.logbox2-1{
+  padding-left:4px;
+}

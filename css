@@ -1,19 +1,20 @@
 body{
   margin: 0 auto;
+  width:50%;
 }
 
 header {
-  display:flex
+  display:flex;
   border-bottom: gainsboro:
   border-bottom-width:thick;
   border-bottom-style:inset;
 }
 
 div.header-left-imag{
-  width:1306.66px;
-  display:inline;
-  align-items:flex-end;
-  display:inline;
+  width:688.66px;
+  height:100px;
+  display:flex;
+
 }
 
 img.fork-kinife{
@@ -26,7 +27,7 @@ p.style{
 }
 
 div .small-logos{
-  width:427px;
+  width:232px;
   height:100px;
   display:flex;
   align-items:flex-end;
@@ -34,14 +35,21 @@ div .small-logos{
 
 div.1st-6-small-logos{
   display: inline;
-  height:100px
-  padding-right:1px;
+  width:175px;
+  height:100px;
 
 }
 div.2nd-2small-logos{
-  display:inline;
+  width:54px;
   height:100px;
+  display:inline;
+  padding-left:3px;
 }
-img.logbox2-1{
-  padding-left:4px;
+
+div.header-left-img{
+  height: 100px
+  display:flex;
+}
+img.for-knife{
+  width: 305;
 }

@@ -1,6 +1,6 @@
 body{
   margin:0 auto;
-  width:50%;
+  width:49%;
   background-image:url("images/list-bg.png");
   background-repeat: no-repeat;
   background-position:473px 1135px;
@@ -8,14 +8,14 @@ body{
 
 
 header.logos {
+  border-bottom:black;
+  border-bottom-width:4px;
+  padding-bottom:4px;
   display:flex;
   align-items:center;
   width:100%;
   height:125px;
   border-bottom-style:solid;
-  border-bottom:black;
-  border-bottom-width:10px;
-  padding-bottom:4px;
 }
 
 div.header-left-imag{
@@ -37,8 +37,9 @@ img.fork-kinife{
 div.Title-of-blog{
   width:48%;
   height:52px;
-  font-family:Cursive;
+
 }
+
 p.style{
   width:255px;
   height:33px;
@@ -68,22 +69,32 @@ img.choco-pizza{
 div.Choco-title{
   height:89px;
   font-size:18px;
+  padding-top:33px
 }
 #delicious-title{
   font-size:25px;
   margin:0px;
+  font-family:cursive;;
+  font-style:oblique;
+  font-weight:bold;
 }
 #best-food{
   font-size:9px;
   margin:0px;
+  font-family:Serif;
+  font-weight:lighter;
 }
 #chocolate-pizza {
   font-size:30px;
   margin:0;
+  font-family:sans-serif;
+  font-weight:bolder;
+  font-stretch:semi-condensed;
 }
 #date-posted{
   margin:0;
   font-size:12px;
+  font-weight:lighter;
 }
 div.printandfont{
   max-height:13px;
@@ -103,7 +114,7 @@ div.print-icon{
 .mainparagraph{
   text-indent:30px;
   font-size:20px;
-  height:300px;
+  height:315px;
 }
 div.paper-image{
   font-size:18px;
@@ -111,6 +122,11 @@ div.paper-image{
   display:flex;
   height:310px;
   justify-content:space-around;
+}
+ul{
+  list-style-type:square;
+  font-family:fantasy;
+  font-size:20px;
 }
 #list-1{
   width:380px;
@@ -121,8 +137,9 @@ div.paper-image{
 footer.author{
   display:flex;
   align-items:center;
-  height:130px;
+  height:135px;
   border-top-style:dashed;
+  border-bottom-style:dashed;
   border-top-color:black;
   border-top-width:4px;
   padding-top:4px;
@@ -132,9 +149,14 @@ div.footerformat{
 
   height:72px;
 }
+div.bio-text{
+  display:flex;
+  flex-direction:colum;
+}
 #vanessa-pic{
   width:71px;
-  height:61px;
+  padding-right:24px;
+  max-height:61px;
 }
 
 .footerAuthorbio{
@@ -144,20 +166,37 @@ div.footerformat{
 }
 #name{
   margin:0 auto;
+  font-weight:bold;
+  font-family:serif;
+  font-size:20px;
 }
 #food-enthusiast{
   margin:0 auto;
+  font-size:19px;
 }
 #share-recipe{
-  height:24px;
-  width:29px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:0 auto;
+  height:50px;
+  width:150px;
   background:greenyellow;
+  font-family:monospace;
+  font-size:14px;
+  color:white;
+
 }
 #footer-fork-knife{
   display:flex;
   justify-content:center;
+  height:30px;
   padding-bottom:30px;
+  background-image:url("images/small-logo.png");
+  background-repeat:no-repeat;
+  background-position:425px -16px;
 }
+
 .published{
   display:flex;
   flex-direction:column;

@@ -19,7 +19,7 @@
               <img src ="images/gp-icon.png" class="logobox1-3" alt="third logo, G+."/>
               <img src ="images/insta-icon.png" class="logobox1-4" alt="forth logo, Instagram."/>
               <img src ="images/flic-icon.png" class="logobox1-5" alt="fifth logo, Fliker."/>
-              <img src="images/pint-icon.png" class="logobox1-6" alt="sixth logo, pintrist."/>
+              <img src="images/pint-icon.png" id ="logobox1-6" alt="sixth logo, pintrist."/>
               <img src ="images/rss-icon.png" class="logobox2-1" alt="First, Rss feed logo."/>
               <img src ="images/mail-icon.png" class="logobox2-2" alt="Second, Mail logo."/>
         </div>
@@ -27,8 +27,14 @@
       <div class="Choco-title">
         <p id = "chocolate-pizza">Chocolate Pizza</p>
         <p id ="date-posted">Posted ON DEC 2013/DESSERTS</p>
+        <div class ="printandfont">
+          <div class="print-icon">
+            <img src="images/print-icon.png" id="print-logo" alt="Print logo above Chocolate pizza picture."/>
+            <p id ="print">PRINT</p>
+          </div>
+        </div>
       </div>
-        <img src="images/print-icon.png" class="print-logo" alt="Print logo above Chocolate pizza picture."/>
+
         <img src="images/choco-pizza.png" class="choco-pizza" alt="Chocolate pizza with Black Mission figs and roasted pecans."/>
       <div class="mainparagraph">
         <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all
@@ -44,36 +50,45 @@
         </p>
       </div>
       <div class="paper-image">
-        <img src="images/list-bg.png" class="notepad" alt="Small piece of note pad image."/>
-        <ul>
-          <li>11/2 cups milk</li>
-          <li>1/2 cup mascarpone</li>
-          <li>1/2 tsp pink salt</li>
-          <li>1 lb Black Mission Figs</li>
-          <li>1/2 cup brown sugar</li>
-          <li>2-4 tbsp water</li>
-        </ul>
-        <ul>
-          <li>1 1/2 cups heavy cream</li>
-          <li>1/3 granulated sugar</li>
-          <li>2 egg yolks</li>
-          <li>1 lemon, jucied</li>
-          <li>2 tbsp butter</li>
-          <li>1 cup honey roasted pecans, roughly chopped</li>
-        </ul>
+        <div id="list-1">
+          <ul>
+            <li>11/2 cups milk</li>
+            <li>1/2 cup mascarpone</li>
+            <li>1/2 tsp pink salt</li>
+            <li>1 lb Black Mission Figs</li>
+            <li>1/2 cup brown sugar</li>
+            <li>2-4 tbsp water</li>
+          </ul>
+        </div>
+        <div id="list-2">
+          <ul>
+            <li>1 1/2 cups heavy cream</li>
+            <li>1/3 granulated sugar</li>
+            <li>2 egg yolks</li>
+            <li>1 lemon, jucied</li>
+            <li>2 tbsp butter</li>
+            <li>1 cup honey roasted pecans, roughly chopped</li>
+          </ul>
+        </div>
       </div>
-      <footer class="Author">
-        <img src="images/van-pic.png" class="vanessa pic" alt="Small picure of blog author, Vanessa Stevnson."/>
-          <p>Vanessa Stevenson</p>
-          <p> Food enthusiast, photograpy fan. And a pinch of raw foodism and that's
-            pretty much who I am.
-          </p>
-          <p>SHARE RECIPE</P>
-        <img src="images/small-logo.png" class="fork-knife2" alt="Fork knife logo."/>
-         <p>Delicious &#169; &#183; All Rights Reserved.
-           Produdly published with Ghost.
-         </p>
+      <footer class="author">
+        <div class="footerformat">
+          <img src="images/van-pic.png" id="vanessa-pic" alt="Small picure of blog author, Vanessa Stevnson."/>
+            <div class="footerAuthorbio">
+                <p id="name">Vanessa Stevenson</p>
+                <p id="food-enthusiast"> Food enthusiast, photograpy fan. And a pinch of raw foodism and that's
+                  pretty much who I am.
+                </p>
+                <p id="share-recipe">SHARE RECIPE</p>
+            </div>
+        </div>
       </footer>
-
+        <div id="footer-fork-knife">
+          <img src="images/small-logo.png" class="fork-knife2" alt="Fork knife logo."/>
+        </div>
+        <div class="published">
+          <p class = "copy-write">Delicious &#169; &#183; All Rights Reserved.</p>
+          <p class= "ghost-publish"> Produdly published with Ghost.</p>
+        </div>
     </body>
 </html>
